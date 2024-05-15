@@ -85,3 +85,11 @@ class Solution {
     }
 }
 */
+
+/*
+ * Extra Points:
+ * 1. Java: ArrayLists vs Array vs Vector: Vector and ArrayLists are dynamic wheres Array is fixed. 
+ *      Also Vector supports concurrency because of threading and doubles up in size. 
+ *      ArrayList is faster but no concurrency support
+ * 2. Learnt how to get entire entry, key, value from hashMap.
+ */
