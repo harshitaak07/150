@@ -64,6 +64,13 @@ class Solution {
 
 
 // * BETTER SOLUTION: Time complexity O(n); Space complexity O(1)
+/*
+ * algorithm:
+ * 1. minBuyPrice as max value and set maxProfit as 0
+ * 2. for each element calc maxProfit as price - minBuyPrice; if buyPrice is > than sell then answer will be negative
+ * 3. minBuyPrice updates as Math.min(minBuyPrice, price)
+ */
+/*
 class Solution {
     public int maxProfit(int[] prices) {
         int minBuyPrice = Integer.MAX_VALUE; 
@@ -77,3 +84,4 @@ class Solution {
         return maxProfit;
     }
 }
+*/
